@@ -1,9 +1,12 @@
 # BikerNet-Java-API
 This is the Api App for my personal project BikerNet implemented with Java
+It features a Controller with all the CRUD Operations
 
 
 ## What I've learned:
-- How to create Api endpoints in the controllers
+- How to create Api endpoints
+- How to create Database Models
+- How to connect Database to Api
 
 
 ## How to install:
@@ -16,10 +19,10 @@ This is the Api App for my personal project BikerNet implemented with Java
    - Install Maven: https://maven.apache.org/install.html
 
 4. Install MySql: 
-https://dev.mysql.com/downloads/installer/
-https://dev.mysql.com/downloads/workbench/
+   - Install MySql Installer: https://dev.mysql.com/downloads/installer/
+   - Install MySql Workbecnch: https://dev.mysql.com/downloads/workbench/
 
-5. On the installation of the mysql installer it was asked for a root password
+5. Upon the installation of the mysql installer it was asked for a root password
   - Now configure the application.propreties like this:
    `spring.datasource.url=jdbc:mysql://localhost:3306/bikernet?useSSL=false&serverTimezone=UTC
    spring.datasource.username=root
